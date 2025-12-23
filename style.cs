@@ -1,0 +1,63 @@
+/* 全体の設定 */
+body {
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    line-height: 1.8;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+    border-bottom: 3px solid #4a90e2;
+}
+
+h1 { color: #2c3e50; }
+h2 {
+    color: #4a90e2;
+    border-left: 5px solid #4a90e2;
+    padding-left: 15px;
+    margin-top: 40px;
+}
+
+/* 各セクション */
+.intro {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #444;
+}
+
+.job-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.tagline {
+    font-weight: bold;
+    color: #e67e22; /* オレンジでワクワク感を強調 */
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.skill-item {
+    background: #edf2f7;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.8em;
+    color: #888;
+}
